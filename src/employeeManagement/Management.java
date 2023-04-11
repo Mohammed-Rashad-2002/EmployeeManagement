@@ -20,7 +20,6 @@ public class Management {
 			int no=sc.nextInt();
 			switch (no) {
 			case 1: {
-				System.out.println("Size: "+employee.size());
 				System.out.println("Enter Employee Name:");
 				String eName = sc.next();
 				System.out.println("Enter Employee Id: ");

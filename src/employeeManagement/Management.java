@@ -11,7 +11,7 @@ public class Management {
 	public static void main(String[] args) {
 		boolean b = true;
 		List<EmployeeDetails> employee = new ArrayList();
-		List<EmployeeDetails> employeeremove=new ArrayList<EmployeeDetails>();
+//		List<EmployeeDetails> employeeremove=new ArrayList<EmployeeDetails>();
 		while (b) {
 			System.out.println("Press 1 to Add Employee");
 			System.out.println("Press 2 for show Employee");
@@ -46,10 +46,7 @@ public class Management {
 				System.out.println("Enter Employee id");
 				int id=sc.nextInt();
 				if (employee.size()>0) {
-					for (EmployeeDetails employeeDetails : employee) {
-						
-						
-					}
+					
 					for (int i = 0; i < employee.size(); i++) {
 						if (employee.get(i).getEmpId()==id) {
 							employee.remove(i);
